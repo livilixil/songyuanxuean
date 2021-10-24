@@ -5,10 +5,12 @@ import * as Font from "./fontLoader.js";
 import * as Navigator from "./navigator.js";
 import * as Card from "./card.js";
 import * as Building from "./building.js";
+import * as Data from "./dataLoader.js";
+import * as Edge from "./edgeBundle.js";
 
 const worldBox = {
-  width: 2592,
-  height: 6751,
+  width: 6000,
+  height: 2000,
 };
 
 const app = new PIXI.Application({
@@ -80,74 +82,92 @@ function viewportEventHandler(event) {
 //   }
 // }
 
-async function addCharacterAndBuilding() {
+async function addCharacterAndBuilding(nodeData, edgeData, edgeCurve) {
   let filter = new PIXI.filters.OutlineFilter(3, 0xdbc49b);
   let lastClicked = undefined;
   let characterList = Character.getCharacterList();
-  d3.json("assets/data.json").then((data) => {
-    let schools = Object.keys(data.xuepai);
-    for (let i of schools) {
-      let b = new Building.Building(i, i, data.xuepaiid[i]);
-      b.register(viewport);
-      b.setPos(
-        data.xuepai[i][0],
-        data.xuepai[i][1],
-        data.xuepailabel[i][0],
-        data.xuepailabel[i][1]
-      );
-      b.setVisible(true);
-      b.object.on("pointerover", function () {
-        this.filters = [filter];
-      });
-      b.object.on("pointerout", function () {
-        this.filters = null;
-      });
-    }
-    data.links.forEach((link, _) => {
-      link.relations.forEach((relation, _) => {
-        let src = data.xuepai[link.source];
-        let tar = data.xuepai[link.target];
-        let characterType = 0;
-        do {
-          characterType = Math.floor(Math.random() * 9);
-        } while (characterType === 7 || characterType === 3);
-        let c = new characterList[characterType](relation.down);
-        c.register(viewport);
-        c.setWalkingState(true);
-        c.Moving(src, tar);
-        viewport.addChild(c.path);
-        c.object.on("click", function (e) {
-          Card.updateCard(c.name);
-          console.log(lastClicked, this.path);
-          lastClicked &&
-            ((lastClicked.object.filters = null),
-            (lastClicked.path.filters = null));
-          this.filters = [filter];
-          // console.log(this.path);
-          c.path.filters = [filter];
-          lastClicked = c;
-        });
-        c.object.on("pointerover", function () {
-          if (lastClicked !== c) this.filters = [filter];
-        });
-        c.object.on("pointerout", function () {
-          if (lastClicked !== c) this.filters = null;
-        });
-      });
+
+  for (let [ind, i] of Object.entries(nodeData)) {
+    // debugger;
+    let b = new Building.Building(+ind, +ind, Math.ceil(Math.random() * 16));
+    b.register(viewport);
+    b.setPos(i.x, i.y, i.x + 50, i.y + 50);
+    b.setVisible(true);
+    b.object.on("pointerover", function () {
+      this.filters = [filter];
     });
-  });
+    b.object.on("pointerout", function () {
+      this.filters = null;
+    });
+  }
+
+  for (let i = 0; i < edgeData.length; ++i) {
+    let src = edgeData[i].source;
+    let tar = edgeData[i].target;
+    let characterType = 0;
+    do {
+      characterType = Math.floor(Math.random() * 9);
+    } while (characterType === 7 || characterType === 3);
+    let c = new characterList[characterType]("name");
+    c.register(viewport);
+    c.setWalkingState(true);
+    c.Moving(
+      edgeCurve[i]
+      // [nodeData[src].x, nodeData[src].y],
+      // [nodeData[tar].x, nodeData[tar].y]
+    );
+    viewport.addChild(c.path);
+  }
+  // data.links.forEach((link, _) => {
+  //   link.relations.forEach((relation, _) => {
+  //     let src = data.xuepai[link.source];
+  //     let tar = data.xuepai[link.target];
+  //     let characterType = 0;
+  //     do {
+  //       characterType = Math.floor(Math.random() * 9);
+  //     } while (characterType === 7 || characterType === 3);
+  //     let c = new characterList[characterType](relation.down);
+  //     c.register(viewport);
+  //     c.setWalkingState(true);
+  //     c.Moving(src, tar);
+  //     viewport.addChild(c.path);
+  //     // c.object.on("click", function (e) {
+  //     //   Card.updateCard(c.name);
+  //     //   console.log(lastClicked, this.path);
+  //     //   lastClicked &&
+  //     //     ((lastClicked.object.filters = null),
+  //     //     (lastClicked.path.filters = null));
+  //     //   this.filters = [filter];
+  //     //   // console.log(this.path);
+  //     //   c.path.filters = [filter];
+  //     //   lastClicked = c;
+  //     // });
+  //     // c.object.on("pointerover", function () {
+  //     //   if (lastClicked !== c) this.filters = [filter];
+  //     // });
+  //     // c.object.on("pointerout", function () {
+  //     //   if (lastClicked !== c) this.filters = null;
+  //     // });
+  //   });
+  // });
 }
 
 async function initialize() {
   await initializeRenderer();
   await Font.loadFont();
+  await Data.loadData();
+  let [nodeData, edgeData, edgeCurve] = Edge.calcLayout(
+    worldBox,
+    viewport,
+    false
+  );
   await Character.initializeCharacter();
   await Building.initializeBuilding();
-  Navigator.initializeNavigator();
-  Card.initializeCard();
-  viewport.on("moved-end", viewportEventHandler);
-  viewport.on("zoomed-end", viewportEventHandler);
-  addCharacterAndBuilding();
+  // Navigator.initializeNavigator();
+  // Card.initializeCard();
+  // viewport.on("moved-end", viewportEventHandler);
+  // viewport.on("zoomed-end", viewportEventHandler);
+  addCharacterAndBuilding(nodeData, edgeData, edgeCurve);
 }
 
 // window.onload = testCharacter();

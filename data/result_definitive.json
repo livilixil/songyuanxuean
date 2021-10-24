@@ -1,0 +1,1443 @@
+{
+    "陸九皐": {
+        "id": null,
+        "name": null,
+        "index_year": 1019,
+        "dynasty": 15
+    },
+    "歐陽脩": {
+        "id": null,
+        "name": "Ouyang Xiu",
+        "name_chn": "歐陽脩",
+        "index_year": 1007,
+        "dynasty": 15
+    },
+    "胡大時": {
+        "id": 4149,
+        "name": "Hu Dashi",
+        "name_chn": "胡大時",
+        "index_year": 1135,
+        "dynasty": 15
+    },
+    "范育": {
+        "id": 591,
+        "name": "Fan Yu",
+        "name_chn": "范育",
+        "index_year": 1030,
+        "dynasty": 15
+    },
+    "胡安國": {
+        "id": 3394,
+        "name": "Hu Anguo",
+        "name_chn": "胡安國",
+        "index_year": 1074,
+        "dynasty": 15
+    },
+    "劉絢": {
+        "id": 20425,
+        "name": "Liu Xuan",
+        "name_chn": "劉絢",
+        "index_year": 1045,
+        "dynasty": 15
+    },
+    "歐陽守道": {
+        "id": 20765,
+        "name": "Ouyang Shoudao",
+        "name_chn": "歐陽守道",
+        "index_year": 1209,
+        "dynasty": 15
+    },
+    "喻樗": {
+        "id": 22849,
+        "name": "Yu Shu",
+        "name_chn": "喻樗",
+        "index_year": 1121,
+        "dynasty": 15
+    },
+    "真德秀": {
+        "id": 10258,
+        "name": "Zhen Dexiu",
+        "name_chn": "真德秀",
+        "index_year": 1178,
+        "dynasty": 15
+    },
+    "彭仲剛": {
+        "id": 33929,
+        "name": "Peng Zhonggang",
+        "name_chn": "彭仲剛",
+        "index_year": 1137,
+        "dynasty": 15
+    },
+    "范子該": {
+        "id": 13895,
+        "name": "Fan Zigai",
+        "name_chn": "范子該",
+        "index_year": 1154,
+        "dynasty": 15
+    },
+    "葉適": {
+        "id": 10749,
+        "name": "Ye Shi",
+        "name_chn": "葉適",
+        "index_year": 1150,
+        "dynasty": 15
+    },
+    "晁說之": {
+        "id": 3029,
+        "name": "Chao Yuezhi",
+        "name_chn": "晁說之",
+        "index_year": 1059,
+        "dynasty": 15
+    },
+    "朱熹": {
+        "id": 3257,
+        "name": "Zhu Xi",
+        "name_chn": "朱熹",
+        "index_year": 1130,
+        "dynasty": 15
+    },
+    "邵溥": {
+        "id": 2122,
+        "name": "Shao Pu",
+        "name_chn": "邵溥",
+        "index_year": 1089,
+        "dynasty": 15
+    },
+    "陳剛": {
+        "id": 47473,
+        "name": "Chen Gang",
+        "name_chn": "陳剛",
+        "index_year": 1094,
+        "dynasty": 15
+    },
+    "范浚": {
+        "id": 16888,
+        "name": "Fan Jun",
+        "name_chn": "范浚",
+        "index_year": 1102,
+        "dynasty": 15
+    },
+    "侯仲良": {
+        "id": 17363,
+        "name": "Hou Zhongliang",
+        "name_chn": "侯仲良",
+        "index_year": 1037,
+        "dynasty": 15
+    },
+    "陸九淵": {
+        "id": 3632,
+        "name": "Lu Jiuyuan",
+        "name_chn": "陸九淵",
+        "index_year": 1139,
+        "dynasty": 15
+    },
+    "硯彌堅": {
+        "id": 108739,
+        "name": "Yan Mijian",
+        "name_chn": "硯彌堅",
+        "index_year": 1212,
+        "dynasty": 18
+    },
+    "楊簡": {
+        "id": 15072,
+        "name": "Yang Jian",
+        "name_chn": "楊簡",
+        "index_year": 1141,
+        "dynasty": 15
+    },
+    "周介": {
+        "id": 16341,
+        "name": "Zhou Jie(2)",
+        "name_chn": "周介",
+        "index_year": 1100,
+        "dynasty": 15
+    },
+    "黃榦": {
+        "id": 11134,
+        "name": "Huang Gan",
+        "name_chn": "黃榦",
+        "index_year": 1152,
+        "dynasty": 15
+    },
+    "王洽": {
+        "id": 20528,
+        "name": "Wang Xia(3)",
+        "name_chn": "王洽",
+        "index_year": 1151,
+        "dynasty": 15
+    },
+    "饒魯": {
+        "id": 10743,
+        "name": "Rao Lu",
+        "name_chn": "饒魯",
+        "index_year": 1253,
+        "dynasty": 15
+    },
+    "何基": {
+        "id": 10727,
+        "name": "He Ji",
+        "name_chn": "何基",
+        "index_year": 1188,
+        "dynasty": 15
+    },
+    "程端蒙": {
+        "id": 27381,
+        "name": "Cheng Duanmeng",
+        "name_chn": "程端蒙",
+        "index_year": 1143,
+        "dynasty": 15
+    },
+    "葉邽": {
+        "id": 44496,
+        "name": "Ye Gui",
+        "name_chn": "葉邽",
+        "index_year": 1185,
+        "dynasty": 15
+    },
+    "呂本中": {
+        "id": 10703,
+        "name": "Lv Benzhong",
+        "name_chn": "呂本中",
+        "index_year": 1084,
+        "dynasty": 15
+    },
+    "張仕佺": {
+        "id": 47057,
+        "name": "Zhang Shiquan",
+        "name_chn": "張仕佺",
+        "index_year": 1142,
+        "dynasty": 15
+    },
+    "宇文紹節": {
+        "id": 17172,
+        "name": "Yuwen Shaojie",
+        "name_chn": "宇文紹節",
+        "index_year": 1154,
+        "dynasty": 15
+    },
+    "劉芮": {
+        "id": 20408,
+        "name": "Liu Rui",
+        "name_chn": "劉芮",
+        "index_year": 1123,
+        "dynasty": 15
+    },
+    "陳瓘": {
+        "id": 7128,
+        "name": "Chen Guan(2)",
+        "name_chn": "陳瓘",
+        "index_year": 1057,
+        "dynasty": 15
+    },
+    "符敘": {
+        "id": 17220,
+        "name": "Fu Xu",
+        "name_chn": "符敘",
+        "index_year": 1151,
+        "dynasty": 15
+    },
+    "朱震": {
+        "id": 39822,
+        "name": "Zhu Zhen",
+        "name_chn": "朱震",
+        "index_year": 1072,
+        "dynasty": 15
+    },
+    "史蒙卿": {
+        "id": 18159,
+        "name": "Shi Mengqing",
+        "name_chn": "史蒙卿",
+        "index_year": 1247,
+        "dynasty": 15
+    },
+    "游九功": {
+        "id": 27724,
+        "name": "You Jiugong",
+        "name_chn": "游九功",
+        "index_year": 1144,
+        "dynasty": 15
+    },
+    "陳苑": {
+        "id": 107953,
+        "name": "Chen Yu",
+        "name_chn": "陳苑",
+        "index_year": 1256,
+        "dynasty": 18
+    },
+    "汪應辰": {
+        "id": 1759,
+        "name": "Wang Yingchen",
+        "name_chn": "汪應辰",
+        "index_year": 1118,
+        "dynasty": 15
+    },
+    "呂希哲": {
+        "id": 7052,
+        "name": "Lv Xizhe",
+        "name_chn": "呂希哲",
+        "index_year": 1047,
+        "dynasty": 15
+    },
+    "陸九韶": {
+        "id": 20582,
+        "name": "Lu Jiushao",
+        "name_chn": "陸九韶",
+        "index_year": 1130,
+        "dynasty": 15
+    },
+    "孟渙": {
+        "id": 25628,
+        "name": "Meng Huan",
+        "name_chn": "孟渙",
+        "index_year": 1118,
+        "dynasty": 15
+    },
+    "程紹開": {
+        "id": 49186,
+        "name": "Cheng Shaokai",
+        "name_chn": "程紹開",
+        "index_year": 1212,
+        "dynasty": 15
+    },
+    "周良": {
+        "id": 42589,
+        "name": "Zhou Liang",
+        "name_chn": "周良",
+        "index_year": 1185,
+        "dynasty": 15
+    },
+    "徐誼": {
+        "id": 18588,
+        "name": "Xu Yi(2)",
+        "name_chn": "徐誼",
+        "index_year": 1149,
+        "dynasty": 15
+    },
+    "王埜": {
+        "id": 10242,
+        "name": "Wang Ye",
+        "name_chn": "王埜",
+        "index_year": 1201,
+        "dynasty": 15
+    },
+    "羅從彥": {
+        "id": 25127,
+        "name": "Luo Congyan",
+        "name_chn": "羅從彥",
+        "index_year": 1072,
+        "dynasty": 15
+    },
+    "廖德明": {
+        "id": 25123,
+        "name": "Liao Deming",
+        "name_chn": "廖德明",
+        "index_year": 1140,
+        "dynasty": 15
+    },
+    "周敦頤": {
+        "id": 504,
+        "name": "Zhou Dunyi",
+        "name_chn": "周敦頤",
+        "index_year": 1017,
+        "dynasty": 15
+    },
+    "劉強學": {
+        "id": 20237,
+        "name": "Liu Qiangxue",
+        "name_chn": "劉強學",
+        "index_year": 1154,
+        "dynasty": 15
+    },
+    "陳埴": {
+        "id": 47493,
+        "name": "Chen Zhi",
+        "name_chn": "陳埴",
+        "index_year": 1156,
+        "dynasty": 15
+    },
+    "陳孔碩": {
+        "id": 12889,
+        "name": "Chen Kongshi",
+        "name_chn": "陳孔碩",
+        "index_year": 1146,
+        "dynasty": 15
+    },
+    "張載": {
+        "id": 11658,
+        "name": "Zhang Zai",
+        "name_chn": "張載",
+        "index_year": 1020,
+        "dynasty": 15
+    },
+    "柴中守": {
+        "id": 26021,
+        "name": "Chai Zhongshou",
+        "name_chn": "柴中守",
+        "index_year": 1163,
+        "dynasty": 15
+    },
+    "陸九齡": {
+        "id": 20584,
+        "name": "Lu Jiuling",
+        "name_chn": "陸九齡",
+        "index_year": 1132,
+        "dynasty": 15
+    },
+    "楊知章": {
+        "id": 138107,
+        "name": "Yang Zhizhang",
+        "name_chn": "楊知章",
+        "index_year": 1142,
+        "dynasty": 15
+    },
+    "劉朔": {
+        "id": 11004,
+        "name": "Liu Shuo",
+        "name_chn": "劉朔",
+        "index_year": 1131,
+        "dynasty": 15
+    },
+    "湯千": {
+        "id": 21491,
+        "name": "Tang Qian",
+        "name_chn": "湯千",
+        "index_year": 1167,
+        "dynasty": 15
+    },
+    "呂大臨": {
+        "id": 11663,
+        "name": "Lv Dalin",
+        "name_chn": "呂大臨",
+        "index_year": 1029,
+        "dynasty": 15
+    },
+    "呂祖謙": {
+        "id": 7055,
+        "name": "Lv Zuqian",
+        "name_chn": "呂祖謙",
+        "index_year": 1137,
+        "dynasty": 15
+    },
+    "李雄": {
+        "id": 38054,
+        "name": "Li Xiong",
+        "name_chn": "李雄",
+        "index_year": 1180,
+        "dynasty": 15
+    },
+    "程迥": {
+        "id": 29597,
+        "name": "Cheng Jiong",
+        "name_chn": "程迥",
+        "index_year": 1134,
+        "dynasty": 15
+    },
+    "劉子翬": {
+        "id": 11827,
+        "name": "Liu Zihui",
+        "name_chn": "劉子翬",
+        "index_year": 1101,
+        "dynasty": 15
+    },
+    "豐稷": {
+        "id": 11372,
+        "name": "Feng Ji",
+        "name_chn": "豐稷",
+        "index_year": 1033,
+        "dynasty": 15
+    },
+    "尹焞": {
+        "id": 4125,
+        "name": "Yin Tun",
+        "name_chn": "尹焞",
+        "index_year": 1071,
+        "dynasty": 15
+    },
+    "林之奇": {
+        "id": 1156,
+        "name": "Lin Zhiqi",
+        "name_chn": "林之奇",
+        "index_year": 1112,
+        "dynasty": 15
+    },
+    "謝良佐": {
+        "id": 11664,
+        "name": "Xie Liangzuo",
+        "name_chn": "謝良佐",
+        "index_year": 1043,
+        "dynasty": 15
+    },
+    "吳澄": {
+        "id": 10084,
+        "name": "Wu Cheng",
+        "name_chn": "吳澄",
+        "index_year": 1249,
+        "dynasty": 18
+    },
+    "潘畤": {
+        "id": 7310,
+        "name": "Pan Zhi",
+        "name_chn": "潘畤",
+        "index_year": 1126,
+        "dynasty": 15
+    },
+    "劉清之": {
+        "id": 13239,
+        "name": "Liu Qingzhi",
+        "name_chn": "劉清之",
+        "index_year": 1134,
+        "dynasty": 15
+    },
+    "詹體仁": {
+        "id": 14967,
+        "name": "Zhan Tiren",
+        "name_chn": "詹體仁",
+        "index_year": 1143,
+        "dynasty": 15
+    },
+    "詹儀之": {
+        "id": 13341,
+        "name": "Zhan Yizhi",
+        "name_chn": "詹儀之",
+        "index_year": 1122,
+        "dynasty": 15
+    },
+    "呂大鈞": {
+        "id": 11661,
+        "name": "Lv Dajun",
+        "name_chn": "呂大鈞",
+        "index_year": 1031,
+        "dynasty": 15
+    },
+    "薛季宣": {
+        "id": 10578,
+        "name": "Xue Jixuan",
+        "name_chn": "薛季宣",
+        "index_year": 1134,
+        "dynasty": 15
+    },
+    "鄭伯熊": {
+        "id": 10592,
+        "name": "Zheng Boxiong",
+        "name_chn": "鄭伯熊",
+        "index_year": 1116,
+        "dynasty": 15
+    },
+    "鄭玉": {
+        "id": 30793,
+        "name": "Zheng Yu(8)",
+        "name_chn": "鄭玉",
+        "index_year": 1298,
+        "dynasty": 18
+    },
+    "喬行簡": {
+        "id": 15259,
+        "name": "Qiao Xingjian",
+        "name_chn": "喬行簡",
+        "index_year": 1156,
+        "dynasty": 15
+    },
+    "劉勉之": {
+        "id": 11864,
+        "name": "Liu Mianzhi",
+        "name_chn": "劉勉之",
+        "index_year": 1058,
+        "dynasty": 15
+    },
+    "陸景端": {
+        "id": 22397,
+        "name": "Lu Jingduan",
+        "name_chn": "陸景端",
+        "index_year": 1106,
+        "dynasty": 15
+    },
+    "朱質": {
+        "id": 40087,
+        "name": "Zhu Zhi",
+        "name_chn": "朱質",
+        "index_year": 1164,
+        "dynasty": 15
+    },
+    "張行成": {
+        "id": 13501,
+        "name": "Zhang Xingcheng",
+        "name_chn": "張行成",
+        "index_year": 1103,
+        "dynasty": 15
+    },
+    "林光朝": {
+        "id": 10612,
+        "name": "Lin Guangchao",
+        "name_chn": "林光朝",
+        "index_year": 1114,
+        "dynasty": 15
+    },
+    "樓昉": {
+        "id": 10364,
+        "name": "Lou Fang",
+        "name_chn": "樓昉",
+        "index_year": 1164,
+        "dynasty": 15
+    },
+    "程若庸": {
+        "id": 15373,
+        "name": "Cheng Ruoyong",
+        "name_chn": "程若庸",
+        "index_year": 1239,
+        "dynasty": 15
+    },
+    "江介": {
+        "id": 39235,
+        "name": "Jiang Jie",
+        "name_chn": "江介",
+        "index_year": 1126,
+        "dynasty": 15
+    },
+    "林宗臣": {
+        "id": 42918,
+        "name": "Lin Zongchen",
+        "name_chn": "林宗臣",
+        "index_year": 1137,
+        "dynasty": 15
+    },
+    "周行己": {
+        "id": 3244,
+        "name": "Zhou Xingji",
+        "name_chn": "周行己",
+        "index_year": 1062,
+        "dynasty": 15
+    },
+    "彪居正": {
+        "id": 48246,
+        "name": "Biao Juzheng",
+        "name_chn": "彪居正",
+        "index_year": 1107,
+        "dynasty": 15
+    },
+    "王遂": {
+        "id": 12053,
+        "name": "Wang Sui",
+        "name_chn": "王遂",
+        "index_year": 1173,
+        "dynasty": 15
+    },
+    "王蘋": {
+        "id": 7381,
+        "name": "Wang Pin",
+        "name_chn": "王蘋",
+        "index_year": 1082,
+        "dynasty": 15
+    },
+    "童大定": {
+        "id": 15177,
+        "name": "Tong Dading",
+        "name_chn": "童大定",
+        "index_year": 1101,
+        "dynasty": 15
+    },
+    "趙汝談": {
+        "id": 19430,
+        "name": "Zhao Rutan",
+        "name_chn": "趙汝談",
+        "index_year": 1178,
+        "dynasty": 15
+    },
+    "葛洪": {
+        "id": 30231,
+        "name": "Ge Hong",
+        "name_chn": "葛洪",
+        "index_year": 1178,
+        "dynasty": 15
+    },
+    "邢恕": {
+        "id": 7106,
+        "name": "Xing Shu",
+        "name_chn": "邢恕",
+        "index_year": 1039,
+        "dynasty": 15
+    },
+    "胡宏": {
+        "id": 7252,
+        "name": "Hu Hong",
+        "name_chn": "胡宏",
+        "index_year": 1106,
+        "dynasty": 15
+    },
+    "危稹": {
+        "id": 20555,
+        "name": "Wei Zhen",
+        "name_chn": "危稹",
+        "index_year": 1158,
+        "dynasty": 15
+    },
+    "朱光庭": {
+        "id": 16878,
+        "name": "Zhu Guangting",
+        "name_chn": "朱光庭",
+        "index_year": 1037,
+        "dynasty": 15
+    },
+    "薛叔似": {
+        "id": 10579,
+        "name": "Xue Shusi",
+        "name_chn": "薛叔似",
+        "index_year": 1162,
+        "dynasty": 15
+    },
+    "蔡沈": {
+        "id": 10058,
+        "name": "Cai Chen",
+        "name_chn": "蔡沈",
+        "index_year": 1167,
+        "dynasty": 15
+    },
+    "游酢": {
+        "id": 11885,
+        "name": "You Zuo",
+        "name_chn": "游酢",
+        "index_year": 1053,
+        "dynasty": 15
+    },
+    "韓元吉": {
+        "id": 669,
+        "name": "Han Yuanji",
+        "name_chn": "韓元吉",
+        "index_year": 1118,
+        "dynasty": 15
+    },
+    "王安石": {
+        "id": 1762,
+        "name": "Wang Anshi",
+        "name_chn": "王安石",
+        "index_year": 1021,
+        "dynasty": 15
+    },
+    "范仲黼": {
+        "id": 10829,
+        "name": "Fan Zhongfu",
+        "name_chn": "范仲黼",
+        "index_year": 1149,
+        "dynasty": 15
+    },
+    "胡瑗": {
+        "id": 3404,
+        "name": "Hu Yuan",
+        "name_chn": "胡瑗",
+        "index_year": 993,
+        "dynasty": 15
+    },
+    "楊庭顯": {
+        "id": 15071,
+        "name": "Yang Tingxian",
+        "name_chn": "楊庭顯",
+        "index_year": 1107,
+        "dynasty": 15
+    },
+    "孫復": {
+        "id": 19670,
+        "name": "Sun Fu",
+        "name_chn": "孫復",
+        "index_year": 992,
+        "dynasty": 15
+    },
+    "唐廣仁": {
+        "id": 44079,
+        "name": "Tang Guangren",
+        "name_chn": "唐廣仁",
+        "index_year": 1060,
+        "dynasty": 15
+    },
+    "張九成": {
+        "id": 12431,
+        "name": "Zhang Jiucheng",
+        "name_chn": "張九成",
+        "index_year": 1092,
+        "dynasty": 15
+    },
+    "晁詠之": {
+        "id": 3028,
+        "name": "Chao Yongzhi",
+        "name_chn": "晁詠之",
+        "index_year": 1065,
+        "dynasty": 15
+    },
+    "胡長孺": {
+        "id": 28498,
+        "name": "Hu Changru",
+        "name_chn": "胡長孺",
+        "index_year": 1249,
+        "dynasty": 18
+    },
+    "許景衡": {
+        "id": 8061,
+        "name": "Xu Jingheng",
+        "name_chn": "許景衡",
+        "index_year": 1072,
+        "dynasty": 15
+    },
+    "沈有開": {
+        "id": 20935,
+        "name": "Shen Youkai",
+        "name_chn": "沈有開",
+        "index_year": 1134,
+        "dynasty": 15
+    },
+    "李耆壽": {
+        "id": 41210,
+        "name": "Li Qishou",
+        "name_chn": "李耆壽",
+        "index_year": 1171,
+        "dynasty": 15
+    },
+    "張孝愷": {
+        "id": 10588,
+        "name": "Zhang Xiaokai",
+        "name_chn": "張孝愷",
+        "index_year": 1131,
+        "dynasty": 15
+    },
+    "董夢程": {
+        "id": 21916,
+        "name": "Dong Mengcheng",
+        "name_chn": "董夢程",
+        "index_year": 1176,
+        "dynasty": 15
+    },
+    "舒璘": {
+        "id": 10325,
+        "name": "Shu Lin",
+        "name_chn": "舒璘",
+        "index_year": 1136,
+        "dynasty": 15
+    },
+    "郭澄": {
+        "id": 18012,
+        "name": "Guo Cheng(2)",
+        "name_chn": "郭澄",
+        "index_year": 1150,
+        "dynasty": 15
+    },
+    "游九言": {
+        "id": 27723,
+        "name": "You Jiuyan",
+        "name_chn": "游九言",
+        "index_year": 1142,
+        "dynasty": 15
+    },
+    "劉堯夫": {
+        "id": 25108,
+        "name": "Liu Yaofu",
+        "name_chn": "劉堯夫",
+        "index_year": 1146,
+        "dynasty": 15
+    },
+    "呂大忠": {
+        "id": 1326,
+        "name": "Lv Dazhong",
+        "name_chn": "呂大忠",
+        "index_year": 1024,
+        "dynasty": 15
+    },
+    "胡憲": {
+        "id": 11872,
+        "name": "Hu Xian",
+        "name_chn": "胡憲",
+        "index_year": 1086,
+        "dynasty": 15
+    },
+    "張栻": {
+        "id": 7164,
+        "name": "Zhang Shi",
+        "name_chn": "張栻",
+        "index_year": 1133,
+        "dynasty": 15
+    },
+    "王文貫": {
+        "id": 25596,
+        "name": "Wang Wenguan",
+        "name_chn": "王文貫",
+        "index_year": 1197,
+        "dynasty": 15
+    },
+    "吳暾": {
+        "id": 102345,
+        "name": "Wu Tun",
+        "name_chn": "吳暾",
+        "index_year": 1295,
+        "dynasty": 18
+    },
+    "楊國寶": {
+        "id": 7098,
+        "name": "Yang Guobao",
+        "name_chn": "楊國寶",
+        "index_year": 1038,
+        "dynasty": 15
+    },
+    "石斗文": {
+        "id": 13425,
+        "name": "Shi Douwen",
+        "name_chn": "石斗文",
+        "index_year": 1129,
+        "dynasty": 15
+    },
+    "蕭楚": {
+        "id": 13192,
+        "name": "Xiao Chu",
+        "name_chn": "蕭楚",
+        "index_year": 1064,
+        "dynasty": 15
+    },
+    "沈躬行": {
+        "id": 20939,
+        "name": "Shen Gongxing",
+        "name_chn": "沈躬行",
+        "index_year": 1063,
+        "dynasty": 15
+    },
+    "李籲": {
+        "id": 19728,
+        "name": "Li Yu",
+        "name_chn": "李籲",
+        "index_year": 1049,
+        "dynasty": 15
+    },
+    "戴良齊": {
+        "id": 52679,
+        "name": "Dai Liangqi",
+        "name_chn": "戴良齊",
+        "index_year": 1209,
+        "dynasty": 15
+    },
+    "曹建": {
+        "id": 45555,
+        "name": "Cao Jian",
+        "name_chn": "曹建",
+        "index_year": 1124,
+        "dynasty": 15
+    },
+    "趙善佐": {
+        "id": 19066,
+        "name": "Zhao Shanzuo",
+        "name_chn": "趙善佐",
+        "index_year": 1134,
+        "dynasty": 15
+    },
+    "程頤": {
+        "id": 3105,
+        "name": "Cheng Yi",
+        "name_chn": "程頤",
+        "index_year": 1033,
+        "dynasty": 15
+    },
+    "范子長": {
+        "id": 3288,
+        "name": "Fan Zichang",
+        "name_chn": "范子長",
+        "index_year": 1152,
+        "dynasty": 15
+    },
+    "關治": {
+        "id": 13395,
+        "name": "Guan Zhi",
+        "name_chn": "關治",
+        "index_year": 1059,
+        "dynasty": 15
+    },
+    "戴溪": {
+        "id": 18684,
+        "name": "Dai Xi",
+        "name_chn": "戴溪",
+        "index_year": 1156,
+        "dynasty": 15
+    },
+    "王自中": {
+        "id": 38808,
+        "name": "Wang Zizhong",
+        "name_chn": "王自中",
+        "index_year": 1134,
+        "dynasty": 15
+    },
+    "郭忠孝": {
+        "id": 7036,
+        "name": "Guo Zhongxiao",
+        "name_chn": "郭忠孝",
+        "index_year": 1067,
+        "dynasty": 15
+    },
+    "劉因": {
+        "id": 29001,
+        "name": "Liu Yin(2)",
+        "name_chn": "劉因",
+        "index_year": 1249,
+        "dynasty": 18
+    },
+    "李修己": {
+        "id": 27314,
+        "name": "Li Xiuji",
+        "name_chn": "李修己",
+        "index_year": 1140,
+        "dynasty": 15
+    },
+    "朱長文": {
+        "id": 11316,
+        "name": "Zhu Changwen",
+        "name_chn": "朱長文",
+        "index_year": 1039,
+        "dynasty": 15
+    },
+    "饒延年": {
+        "id": 25968,
+        "name": "Rao Yannian",
+        "name_chn": "饒延年",
+        "index_year": 1148,
+        "dynasty": 15
+    },
+    "趙師雍": {
+        "id": 10423,
+        "name": "Zhao Shiyong",
+        "name_chn": "趙師雍",
+        "index_year": 1158,
+        "dynasty": 15
+    },
+    "劉南甫": {
+        "id": 52015,
+        "name": "Liu Nanfu",
+        "name_chn": "劉南甫",
+        "index_year": 1202,
+        "dynasty": 15
+    },
+    "唐仲友": {
+        "id": 10010,
+        "name": "Tang Zhongyou",
+        "name_chn": "唐仲友",
+        "index_year": 1136,
+        "dynasty": 15
+    },
+    "程顥": {
+        "id": 3102,
+        "name": "Cheng Hao",
+        "name_chn": "程顥",
+        "index_year": 1032,
+        "dynasty": 15
+    },
+    "劉孟容": {
+        "id": 13250,
+        "name": "Liu Mengrong",
+        "name_chn": "劉孟容",
+        "index_year": 1152,
+        "dynasty": 15
+    },
+    "袁燮": {
+        "id": 10289,
+        "name": "Yuan Xie",
+        "name_chn": "袁燮",
+        "index_year": 1144,
+        "dynasty": 15
+    },
+    "樓鑰": {
+        "id": 3624,
+        "name": "Lou Yue",
+        "name_chn": "樓鑰",
+        "index_year": 1137,
+        "dynasty": 15
+    },
+    "王大寶": {
+        "id": 14454,
+        "name": "Wang Dabao",
+        "name_chn": "王大寶",
+        "index_year": 1094,
+        "dynasty": 15
+    },
+    "王應麟": {
+        "id": 19880,
+        "name": "Wang Yinglin",
+        "name_chn": "王應麟",
+        "index_year": 1223,
+        "dynasty": 15
+    },
+    "陳傅良": {
+        "id": 10585,
+        "name": "Chen Fuliang",
+        "name_chn": "陳傅良",
+        "index_year": 1137,
+        "dynasty": 15
+    },
+    "葉秀發": {
+        "id": 49830,
+        "name": "Ye Xiufa",
+        "name_chn": "葉秀發",
+        "index_year": 1161,
+        "dynasty": 15
+    },
+    "楊方": {
+        "id": 22487,
+        "name": "Yang Fang",
+        "name_chn": "楊方",
+        "index_year": 1134,
+        "dynasty": 15
+    },
+    "李侗": {
+        "id": 33320,
+        "name": "Li Tong",
+        "name_chn": "李侗",
+        "index_year": 1093,
+        "dynasty": 15
+    },
+    "陳亮": {
+        "id": 3075,
+        "name": "Chen Liang",
+        "name_chn": "陳亮",
+        "index_year": 1143,
+        "dynasty": 15
+    },
+    "吳獵": {
+        "id": 22389,
+        "name": "Wu Lie",
+        "name_chn": "吳獵",
+        "index_year": 1143,
+        "dynasty": 15
+    },
+    "宋德之": {
+        "id": 40614,
+        "name": "Song Dezhi",
+        "name_chn": "宋德之",
+        "index_year": 1167,
+        "dynasty": 15
+    },
+    "趙師蒧": {
+        "id": 10424,
+        "name": "Zhao Shidian",
+        "name_chn": "趙師蒧",
+        "index_year": 1176,
+        "dynasty": 15
+    },
+    "呂勝己": {
+        "id": 19687,
+        "name": "Lv Shengji",
+        "name_chn": "呂勝己",
+        "index_year": 1121,
+        "dynasty": 15
+    },
+    "傅夢泉": {
+        "id": 49086,
+        "name": "Fu Mengquan",
+        "name_chn": "傅夢泉",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "劉夙": {
+        "id": 11003,
+        "name": "Liu Su(2)",
+        "name_chn": "劉夙",
+        "index_year": 1124,
+        "dynasty": 15
+    },
+    "劉安世": {
+        "id": 7045,
+        "name": "Liu Anshi",
+        "name_chn": "劉安世",
+        "index_year": 1048,
+        "dynasty": 15
+    },
+    "劉定夫": {
+        "id": 99966,
+        "name": "Liu Dingfu",
+        "name_chn": "劉定夫",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "劉炳": {
+        "id": 14974,
+        "name": "Liu Bing(3)",
+        "name_chn": "劉炳",
+        "index_year": 1149,
+        "dynasty": 18
+    },
+    "劉爚": {
+        "id": 14973,
+        "name": "Liu Yue",
+        "name_chn": "劉爚",
+        "index_year": 1144,
+        "dynasty": 15
+    },
+    "吳必大": {
+        "id": 41534,
+        "name": "Wu Bida",
+        "name_chn": "吳必大",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "姜潛": {
+        "id": 19673,
+        "name": "Jiang Qian",
+        "name_chn": "姜潛",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "宋斌": {
+        "id": 40238,
+        "name": "Song Bin",
+        "name_chn": "宋斌",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "康淵": {
+        "id": 38506,
+        "name": "Kang Yuan",
+        "name_chn": "康淵",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "張巽": {
+        "id": 46774,
+        "name": "Zhang Xun",
+        "name_chn": "張巽",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "張洽": {
+        "id": 27575,
+        "name": "Zhang Xia",
+        "name_chn": "張洽",
+        "index_year": 1179,
+        "dynasty": 15
+    },
+    "張浚": {
+        "id": 211,
+        "name": "Zhang Jun",
+        "name_chn": "張浚",
+        "index_year": 1097,
+        "dynasty": 15
+    },
+    "彭龜年": {
+        "id": 14833,
+        "name": "Peng Guinian",
+        "name_chn": "彭龜年",
+        "index_year": 1142,
+        "dynasty": 15
+    },
+    "徐幾": {
+        "id": 46219,
+        "name": "Xu Ji",
+        "name_chn": "徐幾",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "曾祖道": {
+        "id": 48536,
+        "name": "Zeng Zudao",
+        "name_chn": "曾祖道",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "李復": {
+        "id": 19329,
+        "name": "Li Fu",
+        "name_chn": "李復",
+        "index_year": 1050,
+        "dynasty": 15
+    },
+    "李燔": {
+        "id": 40880,
+        "name": "Li Fan",
+        "name_chn": "李燔",
+        "index_year": 1161,
+        "dynasty": 15
+    },
+    "柴元裕": {
+        "id": 43233,
+        "name": "Chai Yuanyu",
+        "name_chn": "柴元裕",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "楊時": {
+        "id": 2022,
+        "name": "Yang Shi",
+        "name_chn": "楊時",
+        "index_year": 1053,
+        "dynasty": 15
+    },
+    "歐陽謙之": {
+        "id": 51522,
+        "name": "Ouyang Qianzhi",
+        "name_chn": "歐陽謙之",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "洪震老": {
+        "id": 104781,
+        "name": "Hong Zhenlao",
+        "name_chn": "洪震老",
+        "index_year": null,
+        "dynasty": 18
+    },
+    "王遇": {
+        "id": 38761,
+        "name": "Wang Yu",
+        "name_chn": "王遇",
+        "index_year": 1142,
+        "dynasty": 15
+    },
+    "胡寅": {
+        "id": 3402,
+        "name": "Hu Yin",
+        "name_chn": "胡寅",
+        "index_year": 1098,
+        "dynasty": 15
+    },
+    "萬人傑": {
+        "id": 49752,
+        "name": "Wan Renjie",
+        "name_chn": "萬人傑",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "蔡念成": {
+        "id": 51620,
+        "name": "Cai Niancheng",
+        "name_chn": "蔡念成",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "蔣元夫": {
+        "id": 51557,
+        "name": "Jiang Yuanfu",
+        "name_chn": "蔣元夫",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "袁溉": {
+        "id": 10582,
+        "name": "Yuan Gai",
+        "name_chn": "袁溉",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "襲蓋卿": {
+        "id": 39002,
+        "name": "Xi Gaiqing",
+        "name_chn": "襲蓋卿",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "諸葛千能": {
+        "id": 43621,
+        "name": "Zhuge Qianneng",
+        "name_chn": "諸葛千能",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "謝天申": {
+        "id": 52408,
+        "name": "Xie Tianshen",
+        "name_chn": "謝天申",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "譙定": {
+        "id": 24399,
+        "name": "Qiao Ding",
+        "name_chn": "譙定",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "輔廣": {
+        "id": 10555,
+        "name": "Fu Guang",
+        "name_chn": "輔廣",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "鄒補之": {
+        "id": 49956,
+        "name": "Zou Buzhi",
+        "name_chn": "鄒補之",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "陳普": {
+        "id": 35559,
+        "name": "Chen Pu(3)",
+        "name_chn": "陳普",
+        "index_year": 1244,
+        "dynasty": 18
+    },
+    "陳淳": {
+        "id": 10882,
+        "name": "Chen Chun",
+        "name_chn": "陳淳",
+        "index_year": 1159,
+        "dynasty": 15
+    },
+    "陳淵": {
+        "id": 3094,
+        "name": "Chen Yuan",
+        "name_chn": "陳淵",
+        "index_year": 1086,
+        "dynasty": 15
+    },
+    "陳鵬飛": {
+        "id": 42974,
+        "name": "Chen Pengfei",
+        "name_chn": "陳鵬飛",
+        "index_year": 1113,
+        "dynasty": 15
+    },
+    "陽岊": {
+        "id": 48917,
+        "name": "Yang Jie",
+        "name_chn": "陽岊",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "靳裁之": {
+        "id": 49646,
+        "name": "Jin Caizhi",
+        "name_chn": "靳裁之",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "黃叔豐": {
+        "id": 20550,
+        "name": "Huang Shufeng",
+        "name_chn": "黃叔豐",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "黃幹": {
+        "id": 10742,
+        "name": "Huang Gan",
+        "name_chn": "黃幹",
+        "index_year": null,
+        "dynasty": 15
+    },
+    "黃裳": {
+        "id": 42148,
+        "name": "Huang Shang",
+        "name_chn": "黃裳",
+        "index_year": 1146,
+        "dynasty": 15
+    },
+    "黃謙": {
+        "id": 18993,
+        "name": "Huang Qian",
+        "name_chn": "黃謙",
+        "index_year": 1157,
+        "dynasty": 15
+    },
+    "黃震": {
+        "id": 18938,
+        "name": "Huang Zhen",
+        "name_chn": "黃震",
+        "index_year": 1213,
+        "dynasty": 15
+    },
+    "周奭": {
+        "id": 42990,
+        "name": "Zhou Shi",
+        "name_chn": "周奭",
+        "index_year": null,
+        "dynasty": 15
+    }
+}

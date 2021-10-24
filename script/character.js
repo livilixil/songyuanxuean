@@ -50,10 +50,10 @@ class Character {
     this.person.addChild(this.body);
     this.person.addChild(this.head);
     this.object.addChild(this.person);
-    this.object.addChild(this.plaque);
+    // this.object.addChild(this.plaque);
 
     this.initializeWalking(walkingAnimation);
-    this.object.scale.set(0.6, 0.6);
+    this.object.scale.set(0.6 * 0.25, 0.6 * 0.25);
     this.object.interactive = true;
     // this.head.blendMode = PIXI.BLEND_MODES.ADD;
     // this.body.blendMode = PIXI.BLEND_MODES.ADD;
@@ -120,47 +120,58 @@ class Character {
     this.headSwing.paused(true);
   }
 
-  Moving(src, tar) {
-    const speed = 0.05;
+  Moving(points) {
+    const speed = 0.01;
     const sqrt2 = Math.sqrt(2) / 2;
     let mid = [[], []];
-    let ang =
-      Math.atan((tar[1] - src[1]) / (tar[0] - src[0])) +
-      (tar[0] - src[0] < 0 ? Math.PI : 0);
-    let distance = Math.sqrt(
-      (+src[0] - +tar[0]) ** 2 + (+src[1] - +tar[1]) ** 2
-    );
-    mid[0][0] = Math.random() * sqrt2 * distance;
-    mid[0][1] = Math.random() * sqrt2 * distance;
-    mid[1][0] = Math.random() * sqrt2 * distance;
-    mid[1][1] = Math.random() * sqrt2 * distance;
-    mid[0] = coordiateRotate(ang - Math.PI / 4, ...mid[0]);
-    mid[1] = coordiateRotate(ang - Math.PI / 4, ...mid[1]);
-    d3.select("svg")
+
+    let line = d3
+      .line()
+      .x((d) => d.x)
+      .y((d) => d.y);
+    let distance = d3
+      .select("svg")
       .append("path")
-      .attr("d", function () {
-        // let s = `M${src[0]},${src[1]}L${tar[0]},${tar[1]}`;
-        let s = `M${src[0]},${src[1]}c ${mid[0][0]},${mid[0][1]} ${mid[1][0]},${
-          mid[1][1]
-        }, ${tar[0] - src[0]},${tar[1] - src[1]}`;
-        return s;
-      })
-      .attr("id", "path" + this.id);
+      .datum(points)
+      .attr("d", line)
+      .attr("id", "path" + this.id)
+      .node()
+      .getTotalLength();
+
+    // mid[0][0] = Math.random() * sqrt2 * distance;
+    // mid[0][1] = Math.random() * sqrt2 * distance;
+    // mid[1][0] = Math.random() * sqrt2 * distance;
+    // mid[1][1] = Math.random() * sqrt2 * distance;
+    // mid[0] = coordiateRotate(ang - Math.PI / 4, ...mid[0]);
+    // mid[1] = coordiateRotate(ang - Math.PI / 4, ...mid[1]);
+
+    // this.path = new PIXI.Graphics();
+    // this.path.lineStyle(15, 0xffbc64, 0.2);
+    // // this.path.lineStyle(15, 0xd49c53, 0.2);
+    // this.path.moveTo(src[0], src[1]);
+    // this.path.bezierCurveTo(
+    //   src[0] + mid[0][0],
+    //   src[1] + mid[0][1],
+    //   src[0] + mid[1][0],
+    //   src[1] + mid[1][1],
+    //   tar[0],
+    //   tar[1]
+    // );
+    // this.path.endFill();
+
     this.path = new PIXI.Graphics();
-    this.path.lineStyle(15, 0xffbc64, 0.2);
-    // this.path.lineStyle(15, 0xd49c53, 0.2);
-    this.path.moveTo(src[0], src[1]);
-    this.path.bezierCurveTo(
-      src[0] + mid[0][0],
-      src[1] + mid[0][1],
-      src[0] + mid[1][0],
-      src[1] + mid[1][1],
-      tar[0],
-      tar[1]
-    );
-    this.path.endFill();
+    // this.path.lineStyle(5, 0x555555, 0.4);
+    let testTexture = PIXI.Texture.from("assets/road.png");
+    this.path.lineTextureStyle({ width: 10, texture: testTexture });
+    this.path.moveTo(points[0].x, points[0].y);
+    for (let i = 1; i < points.length; ++i) {
+      this.path.lineTo(points[i].x, points[i].y);
+    }
+    // this.path.filters = [new PIXI.filters.BlurFilter(2)];
+
     this.path.zOrder = -100;
-    let pathDirection = +(src[0] < tar[0]);
+    // let pathDirection = +(src[0] < tar[0]);
+    let pathDirection = 1;
     let path = anime.path("#path" + this.id);
     if (this.direct != pathDirection) {
       this.person.scale.x *= -1;

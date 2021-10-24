@@ -26,7 +26,8 @@ export class Building {
     this.object = new PIXI.Container();
 
     this.object.addChild(this.person);
-    this.object.addChild(this.plaque);
+    // this.object.addChild(this.plaque);
+    this.object.scale.set(0.25, 0.25);
 
     this.object.interactive = true;
   }

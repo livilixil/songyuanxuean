@@ -1,0 +1,78 @@
+{"frames": {
+
+"1-body.png":
+{
+	"frame": {"x":1239,"y":816,"w":136,"h":266},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":266},
+	"sourceSize": {"w":136,"h":266},
+	"anchor": {"x":0.419118,"y":0.646617}
+},
+"1-head.png":
+{
+	"frame": {"x":1299,"y":1084,"w":57,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":48},
+	"sourceSize": {"w":57,"h":50},
+	"anchor": {"x":0.491228,"y":0.72}
+},
+"1-leftleg.png":
+{
+	"frame": {"x":1349,"y":490,"w":40,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":99},
+	"sourceSize": {"w":40,"h":99},
+	"anchor": {"x":0.2,"y":0.0606061}
+},
+"1-rightleg.png":
+{
+	"frame": {"x":1239,"y":1084,"w":58,"h":96},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":96},
+	"sourceSize": {"w":62,"h":99},
+	"anchor": {"x":0.0967742,"y":0.0808081}
+},
+"house1_body.png":
+{
+	"frame": {"x":1,"y":816,"w":1236,"h":381},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":0,"w":1236,"h":381},
+	"sourceSize": {"w":1353,"h":381},
+	"anchor": {"x":0.440844,"y":0.433107}
+},
+"house1_roof1.png":
+{
+	"frame": {"x":1,"y":1,"w":1353,"h":487},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1353,"h":487},
+	"sourceSize": {"w":1353,"h":487},
+	"anchor": {"x":0.436323,"y":0.905286}
+},
+"house1_roof2.png":
+{
+	"frame": {"x":1,"y":490,"w":1346,"h":324},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":23,"w":1346,"h":324},
+	"sourceSize": {"w":1353,"h":347},
+	"anchor": {"x":0.440844,"y":0.864865}
+}},
+"animations": {
+	"house1_roof": ["house1_roof1.png","house1_roof2.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "1.png",
+	"format": "RGBA8888",
+	"size": {"w":1390,"h":1198},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:aeab414466e2e70fd1ebf220bfd5c9c1:dd3c36925fa2db75988f00fbfa929640:d31de202d7213cc8961db402b7b4c95a$"
+}
+}
